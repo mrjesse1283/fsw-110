@@ -1,0 +1,1 @@
+document.getElementById("words").innerHTML = "Wow what a spectacular event that words can create";

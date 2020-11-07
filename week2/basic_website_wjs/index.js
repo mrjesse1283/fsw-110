@@ -60,6 +60,7 @@ list.append(line2);
 var line3 = document.createElement("li");
 line3.textContent = "Line Numero three man";
 list.append(line3);
+
 //this next line is how I added the li to the ul
 //needed to add all the lines to the list than append the list to the document.body
 document.body.append(list);

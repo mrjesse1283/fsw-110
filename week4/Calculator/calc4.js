@@ -1,6 +1,6 @@
 //addition
 function addTwoNumber(x , y){
-    var addNum = +x + +y;
+    var addNum = (x + y);
     return addNum;
 }
 
@@ -17,7 +17,7 @@ addButton.addEventListener("click", function(){
 
 //subtraction
 function subTwoNumber(a , b){
-    var subNum = +a - +b;
+    var subNum = (a - b);
     return subNum;
 }
 
@@ -34,7 +34,7 @@ subButton.addEventListener("click", function(){
 
 //multiply
 function multiplyTwoNumber(num1 , num2){
-    var mulNum = +num1 * +num2;
+    var mulNum = (num1 * num2);
     return mulNum;
 }
 

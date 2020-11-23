@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="form.css">
+    <title>FORMS PROJECT2</title>
+</head>
+<body id="body">
+    <form id="formId">
+        <h1>Please select your final Destination:</h1>
+        <div>
+            First Name:<input id="firstname" type="" placeholder="">
+        </div>
+        <div>
+            Last Name:<input id="lastname" type="" placeholder="">
+        </div>
+        <div>
+            Age<input id="" type="number" placeholder="">
+        </div>
+
+        <div id="gender">
+            <h2>Gender</h2>
+            Male<input id="male" type="radio" Name="gender" value="Male"> 
+            Female<input id="female" type="radio" name="gender" value="Female"> 
+        </div>
+
+        <select id="location1">
+            <label id="loc">What is your desired Destination?:</label>
+               <option value="Tokyo" name="location" >Tokyo</option>
+               <option value="LA" name="location">LA</option>
+               <option value="Denver" name="location">Denver</option>    
+        </select>
+
+        <div id="diet1">
+            <h2 id="diet2">Dietary Needs:</h2>
+                Vegetarian:<input id="Veggie" type="checkbox" value="Vegetarian" name="diet">
+                Kosher:<input id="Kosher"type="checkbox" value="Kosher" name="diet">
+                Lactose-Free: <input id="Lactose" type="checkbox" value="Lactose-Free" name="diet">
+        </div>
+
+
+        <button id="button" >Fly Away</button>
+
+    </form>
+
+    <script src="form.js"></script>
+</body>
+</html>

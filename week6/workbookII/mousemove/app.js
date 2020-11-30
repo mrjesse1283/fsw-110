@@ -4,7 +4,7 @@ let redBox = document.getElementsByClassName("red-box");
 let cursor = document.createElement("h3");
     document.body.append(cursor);
 
-redBox[0].addEventListener("mouseover", function(e){
+redBox[0].addEventListener("mousemove", function(e){
     x = e.clientX;
     y = e.clientY;
     cursor.textContent = "Your Mouse Position Is: " + x + " and " + y ;

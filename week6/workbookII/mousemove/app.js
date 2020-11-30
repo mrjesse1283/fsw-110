@@ -7,7 +7,7 @@ let cursor = document.createElement("h3");
 redBox[0].addEventListener("mousemove", function(e){
     x = e.clientX;
     y = e.clientY;
-    cursor.textContent = "Your Mouse Position Is: " + x + " and " + y ;
+    cursor.textContent = "Your Mouse Position Is: X- " + x + " and Y- " + y ;
 });
 redBox[0].addEventListener("mouseout", function(e){
     cursor.textContent =" ";

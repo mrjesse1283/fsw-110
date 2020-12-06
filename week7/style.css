@@ -1,0 +1,23 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1540103711724-ebf833bde8d1?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8ZGl5fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    text-align: center;
+}
+h1 {
+    text-decoration: underline;
+}
+p {
+    color: red;
+    font-style: inherit;
+}
+#todo-input {
+    width: 100px;
+}
+input {
+    text-align: center;
+}
+button {
+    background-color: red;
+    color: black;
+    margin-top: 20px;
+}
